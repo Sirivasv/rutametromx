@@ -1,0 +1,7 @@
+V0.1 - Configuring Build - @sirivasv - @(18-05-20 21:48):
+  ✔ set up basic Webpack configuration @done (18-05-20 21:49)
+  ✔ containerize app @done (18-05-20 21:49)
+  ✔ set up server @done (18-05-20 21:50)
+  ☐ add webpack CssMin, ~UglifyJS, Clean
+  ☐ set up Linux Deployment Pipeline
+  ☐ add support for docker swarm
