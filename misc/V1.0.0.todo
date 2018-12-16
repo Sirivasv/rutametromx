@@ -1,0 +1,10 @@
+V1.0.0 - Configuring Build - @sirivasv - @(18-12-16 16:24):
+  ✔ set up basic Webpack configuration @done(18-12-16 15:35)
+  ✔ set up basic typescript configuration @done(18-12-16 15:35)
+  ✔ set up basic gulp configuration @done(18-12-16 15:35)
+  ☐ containerize app
+  ☐ set up server
+  ☐ deploy
+  ☐ Test
+  ☐ Test IE11
+  ☐ Add FE

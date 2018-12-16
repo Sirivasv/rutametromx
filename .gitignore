@@ -1,1 +1,8 @@
-node_modules/*
+# node modules
+node_modules/
+
+# Dist Outputs
+dist/
+
+# Build Outputs
+middleBuild/
