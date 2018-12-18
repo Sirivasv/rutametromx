@@ -9,3 +9,6 @@ middleBuild/
 
 # Deploy Script
 deployToServer.sh
+
+# vscode settings
+.vscode

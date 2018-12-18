@@ -1,10 +1,21 @@
-V1.0.0 - Configuring Build - @sirivasv - @(18-12-17 23:10):
+V1.0.0 - Configuring Build - @sirivasv - @(18-12-18 13:55):
   ✔ set up basic Webpack configuration @done(18-12-16 15:35)
   ✔ set up basic typescript configuration @done(18-12-16 15:35)
   ✔ set up basic gulp configuration @done(18-12-16 15:35)
   ✔ containerize app @done(18-12-17 23:10)
   ✔ set up server @done(18-12-17 23:10)
   ✔ deploy @done(18-12-17 23:10)
+  ✔ Research typescript server-client and further operations @done(18-12-18 13:55)
+  ☐ Replace webpack ts loader with babel-loader
+  ☐ run typescript compiler for node server files
   ☐ Test
   ☐ Test IE11
   ☐ Add FE
+    ☐ Add sass-loader
+    ☐ Add html-loader
+  ☐ Test node_modules/ shared libraries between client and server
+  ☐ Test IE11
+  ☐ Save as base project for further operations
+  ☐ Research about using react, angular, vue (Test with custom apps) *First solve the problem then you write the code
+  ☐ Add RutaMetro logic-views-etc *First solve the problem then you write the code
+  ☐ Deploy

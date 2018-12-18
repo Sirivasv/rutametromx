@@ -1,18 +1,21 @@
-import asyncMessager from '../classes/asyncMessager';
+import {AsyncMessager} from "../classes/AsyncMessager";
 
-window.onload = async function (this: GlobalEventHandlers, ev:Event): Promise<void> {
-    
+window.onload = async function(this: GlobalEventHandlers, ev: Event): Promise<void> {
+    // tslint:disable-next-line:no-console
     console.log("Init in home Typescript");
     try {
 
-        let localMessager = new asyncMessager("Francis");
+        const localMessager = new AsyncMessager("Francis");
 
-        let asyncMessage = await localMessager.getAsyncMessage("Hello buddy");
+        const asyncMessage = await localMessager.getAsyncMessage("Hello buddy");
+        // tslint:disable-next-line:no-console
         console.log(asyncMessage);
-        console.log(localMessager.supperArray);
+        // tslint:disable-next-line:no-console
+        console.log(localMessager.getSuperArray());
 
     } catch (err) {
 
+        // tslint:disable-next-line:no-console
         console.log(`ERROR: - ${err}`);
 
     }
