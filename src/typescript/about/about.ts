@@ -1,4 +1,4 @@
-import '../classes/asyncMessager';
+import asyncMessager from '../classes/asyncMessager';
 
 window.onload = async function (): Promise<void> {
     console.log("Init in home Typescript");

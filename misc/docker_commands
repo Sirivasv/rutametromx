@@ -1,0 +1,5 @@
+# To build image from Dockerfile
+docker build -t sirivasv/rutametromx .
+
+# To run container over the image
+docker run -p 3000:3000 -d sirivasv/rutametromx

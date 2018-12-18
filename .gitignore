@@ -6,3 +6,6 @@ dist/
 
 # Build Outputs
 middleBuild/
+
+# Deploy Script
+deployToServer.sh
