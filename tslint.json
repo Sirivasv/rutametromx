@@ -1,4 +1,6 @@
 {
-  "extends": "tslint:recommended",
-  "rules": {}
+  "extends": "tslint:all",
+  "rules": {
+    "no-inferrable-types":false
+  }
 }

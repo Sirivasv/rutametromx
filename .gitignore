@@ -7,8 +7,9 @@ dist/
 # Build Outputs
 middleBuild/
 
-# Deploy Script
+# Deploy Script Scripts
 deployToServer.sh
+sshToServer.sh
 
 # vscode settings
 .vscode
