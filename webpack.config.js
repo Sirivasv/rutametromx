@@ -5,14 +5,13 @@ module.exports = {
 		home: './src/typescript/home/home.ts',
 		about: './src/typescript/about/about.ts',
 	},
-	devtool: 'inline-source-map',
 	module: {
-		rules: [
-			{
-				test: /\.tsx?$/,
-				use: 'ts-loader',
-			}
-		]
+		rules: [{
+			// Include ts, tsx, js, and jsx files.
+			test: /\.(ts|js)x?$/,
+			// exclude: /node_modules/,
+			loader: 'babel-loader',
+		}],
 	},
 	resolve: {
 		extensions: ['.tsx', '.ts', '.js']
