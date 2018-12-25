@@ -1,6 +1,7 @@
 {
   "extends": "tslint:all",
   "rules": {
-    "no-inferrable-types": false
+    "no-inferrable-types": false,
+    "match-default-export-name": false
   }
 }

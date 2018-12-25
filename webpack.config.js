@@ -9,7 +9,7 @@ module.exports = {
 		rules: [{
 			// Include ts, tsx, js, and jsx files.
 			test: /\.(ts|js)x?$/,
-			// exclude: /node_modules/,
+			exclude: /typescript\/server/,
 			loader: 'babel-loader',
 		}],
 	},

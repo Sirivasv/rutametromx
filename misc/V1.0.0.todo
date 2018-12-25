@@ -1,4 +1,4 @@
-V1.0.0 - 48% - Configuring Build - @sirivasv - @(18-12-24 12:15):
+V1.0.0 - 60% - Configuring Build - @sirivasv - @(18-12-24 18:41):
   ✔ set up basic Webpack configuration @done(18-12-16 15:35)
   ✔ set up basic typescript configuration @done(18-12-16 15:35)
   ✔ set up basic gulp configuration @done(18-12-16 15:35)
@@ -11,9 +11,9 @@ V1.0.0 - 48% - Configuring Build - @sirivasv - @(18-12-24 12:15):
   ✔ Replace webpack ts loader with babel-loader @done(18-12-24 12:15)
   ✔ Test IE11 @done(18-12-24 12:15)
   ✔ Test @done(18-12-24 12:15)
-  ☐ run typescript compiler for node server files
-  ☐ Test
-  ☐ Test IE11
+  ✔ run typescript compiler for node server files @done(18-12-24 18:41)
+  ✔ Test @done(18-12-24 18:41)
+  ✔ Test IE11 @done(18-12-24 18:41)
   ☐ Try node_modules/ shared libraries between client and server
   ☐ Test
   ☐ Test IE11
